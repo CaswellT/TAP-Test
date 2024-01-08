@@ -12,7 +12,7 @@ spec:
     - name: BP_DOTNET_PROJECT_PATH
       value: ./TAP-Test
     - name: BP_DOTNET_FRAMEWORK_VERSION
-      value: 8.0.0
+      value: 7.0.404
   params:
   - name: annotations
     value:
@@ -21,7 +21,7 @@ spec:
     value:
       apps.tanzu.vmware.com/language: dotnet
       apps.tanzu.vmware.com/pipeline: test
-      apps.tanzu.vmware.com/version: "8.0"
+      apps.tanzu.vmware.com/version: "7.0"
   source:
     git:
       ref:
